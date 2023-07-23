@@ -186,51 +186,51 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Ektha '23",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Contributed to developing a college Techno-Cultural Fest website, featuring event listings and seamless booking functionality, enhancing participant experience.",
       tags: [
         {
-          name: "react",
+          name: "PHP",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "SQL",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: "./public/Ektha.PNG",
+      source_code_link: "https://github.com/bijinbjames/Ektha-v2",
     },
     {
-      name: "Job IT",
+      name: "Pauloroid",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: "./public/Paul.PNG",
+      source_code_link: "http://pauloroid.world/",
     },
     {
-      name: "Trip Guide",
+      name: "Polyfund",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Decentralized Application powered by Ethereum Blockchain, where all the information about campaigns, contributions, withdrawal requests and funds are kept on a Blockchain Network, visible to all and decentralized.",
       tags: [
         {
           name: "nextjs",
@@ -245,8 +245,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: "./public/Polyfund.PNG",
+      source_code_link: "https://github.com/bijinbjames/Polyfund-mini-project",
     },
   ];
   
