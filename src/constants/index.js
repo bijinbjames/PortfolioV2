@@ -209,7 +209,7 @@ import {
     {
       name: "Pauloroid",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Designed and developed a dynamic photo showcasing website using Django. Created an elegant platform that allows client to browse and display captivating photo galleries effortlessly.",
       tags: [
         {
           name: "HTML",
@@ -220,9 +220,10 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "JavaScript",
+          name: "Django",
           color: "pink-text-gradient",
         },
+        
       ],
       image: "/Paul.PNG",
       source_code_link: "http://pauloroid.world/",
