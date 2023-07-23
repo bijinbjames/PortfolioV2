@@ -118,7 +118,7 @@ import {
     {
       title: "Senior Backend Developer",
       company_name: "Boolokam TV",
-      icon: "./src/assets/company/boolokamtv.png",
+      icon: "https://i.ibb.co/84kK0KD/boolokamtv.png",
       iconBg: "#383E56",
       date: "Aug 2020 - Sept 2022",
       points: [
@@ -131,7 +131,7 @@ import {
     {
       title: "Frontend Developer (Intern)",
       company_name: "Innovation Incubator",
-      icon: "./src/assets/company/innovation.jfif",
+      icon: "https://i.ibb.co/TWSDjgy/innovation.jpg",
       iconBg: "#E6DEDD",
       date: "Nov 2021 - Feb 2022",
       points: [
@@ -144,7 +144,7 @@ import {
     {
       title: "Freelance Web Developer",
       company_name: "Upwork",
-      icon: "./src/assets/company/upwork.jpg",
+      icon: "https://i.ibb.co/TvDp27p/upwork.jpg",
       iconBg: "#17A600",
       date: "May 2020 - Present",
       points: [
