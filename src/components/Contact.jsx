@@ -19,7 +19,7 @@ const Contact = () => {
   {/*Download Resume */}
   const handleDownloadResume = () => {
     // Replace the URL below with the actual URL of your resume file
-    const resumeUrl = "./src/assets/Bijin-Resume.pdf";
+    const resumeUrl = "/src/assets/Bijin-Resume.pdf";
 
     // Create an anchor element
     const downloadLink = document.createElement("a");
