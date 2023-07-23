@@ -203,7 +203,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "./public/Ektha.PNG",
+      image: "/Ektha.PNG",
       source_code_link: "https://github.com/bijinbjames/Ektha-v2",
     },
     {
@@ -224,7 +224,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "./public/Paul.PNG",
+      image: "/Paul.PNG",
       source_code_link: "http://pauloroid.world/",
     },
     {
@@ -245,7 +245,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "./public/Polyfund.PNG",
+      image: "./Polyfund.PNG",
       source_code_link: "https://github.com/bijinbjames/Polyfund-mini-project",
     },
   ];
