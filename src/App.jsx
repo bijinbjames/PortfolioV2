@@ -4,7 +4,7 @@ import { inject } from '@vercel/analytics';
 
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
-
+inject();
 const App = () => {
   return (
     <BrowserRouter>
