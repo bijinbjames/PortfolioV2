@@ -46,7 +46,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Block Chain Developer",
       icon: mobile,
     },
     {
@@ -54,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Penetration Tester",
       icon: creator,
     },
   ];
@@ -116,57 +116,45 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Senior Backend Developer",
+      company_name: "Boolokam TV",
+      icon: "./src/assets/company/boolokamtv.png",
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Aug 2020 - Sept 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Played a pivotal role as a collaborative force in the development of the Boolokam.tv OTT platform, effectively serving a global user base.",
+        "Achieved 70% increase in platform performance through efficient server management and optimization.",
+        "Implemented advanced video quality switching algorithms, significantly reducing video transcoding costs.",
+        "Utilized cutting-edge AWS services, including Lightsail, Amazon EC2 and S3; to implement the OTT platform.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Frontend Developer (Intern)",
+      company_name: "Innovation Incubator",
+      icon: "./src/assets/company/innovation.jfif",
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Nov 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Contributed to the development team in creating a user-friendly and dynamic interface for 1000x.club.",
+        "Assisted in debugging and troubleshooting frontend issues, ensuring smooth functionality and user experience.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Gained practical experience in working with React JS libraries and frameworks, such as Redux and React Router.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Freelance Web Developer",
+      company_name: "Upwork",
+      icon: "./src/assets/company/upwork.jpg",
+      iconBg: "#17A600",
+      date: "May 2020 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed and delivered multiple websites, including pauloroid.world (an artist's portfolio website) and wekonnekt.co (a professional networking platform).",
+        "Demonstrated expertise in frontend development, responsive design, and cross-browser compatibility.",
+        "Utilized agile project management methodologies to ensure efficient and successful website delivery.",
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+   
+    
   ];
   
   const testimonials = [

@@ -16,6 +16,29 @@ const Contact = () => {
     email: "",
     message: "",
   });
+  {/*Download Resume */}
+  const handleDownloadResume = () => {
+    // Replace the URL below with the actual URL of your resume file
+    const resumeUrl = "./src/assets/Bijin-Resume.pdf";
+
+    // Create an anchor element
+    const downloadLink = document.createElement("a");
+
+    // Set the href attribute to the resume URL
+    downloadLink.href = resumeUrl;
+
+    // Set the "download" attribute to suggest the file name when downloaded
+    downloadLink.setAttribute("download", "Bijin-Resume.pdf");
+
+    // Append the link to the DOM
+    document.body.appendChild(downloadLink);
+
+    // Programmatically click the link to trigger the download
+    downloadLink.click();
+
+    // Clean up the DOM after the download has started
+    document.body.removeChild(downloadLink);
+  };
 
   const [loading, setLoading] = useState(false);
 
@@ -74,6 +97,7 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
+        
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
@@ -115,6 +139,8 @@ const Contact = () => {
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
+          
+          <div className="flex space-x-4">
 
           <button
             type='submit'
@@ -122,8 +148,18 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
+          <button
+            type='button'
+            onClick={handleDownloadResume}
+            className='bg-primary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+          >
+              Download My Resume
+          </button>
+          </div>
         </form>
       </motion.div>
+
+      
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
@@ -134,6 +170,4 @@ const Contact = () => {
     </div>
   );
 };
-const publicKey = import.meta.env.VITE_APP_EMAILJS_SERVICE_ID;
-console.log(publicKey); // This will log your emailJS public key to the console
 export default SectionWrapper(Contact, "contact");
